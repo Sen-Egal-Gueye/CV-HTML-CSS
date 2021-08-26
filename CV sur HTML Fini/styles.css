@@ -1,0 +1,267 @@
+* 
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+body 
+{
+	background: linear-gradient(to right,#48C9B0, white);
+	/* margin: 100px 450px; */
+}
+
+li
+{
+	list-style: none;
+}
+
+#containerPrincipal 
+{
+	/* position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+	
+	/* padding: 20px 15px; */
+	background-color: darkcyan; 
+	width: 900px;
+	height: 965px;
+	position: relative;
+	
+	margin: 50px auto;
+}
+
+/* ---PRESENTATION---- */
+
+.titreSection
+{
+	border: 1px solid rgb(173,255,47,0.3);
+	width: 32%;
+	text-align: center;
+	margin-bottom: 15px;
+	color: whitesmoke;
+	text-shadow: rgb(37, 90, 50) 2px 2px 2px;
+
+}
+
+h3
+{
+	color: white;
+	text-shadow: rgb(37, 90, 50) 2px 2px 2px;
+}
+
+#presentation 
+{
+	display: flex;
+	padding: 20px 10px;
+	color: white;
+	color: white;
+	text-shadow: rgb(37, 90, 50) 2px 2px 2px;
+	
+
+	/* background-color: darkcyan;
+	height: 231px;
+	font-size: 1.3em; */	
+}
+
+
+#nom
+{
+	position: relative;
+	left: -30px;
+	/* color: white;
+	text-shadow: rgb(37, 90, 50) 2px 2px 2px; */
+	
+}
+
+#etudiantDescription
+{
+	position: relative;
+	left: -50px;
+}
+
+#etudiant
+{
+	font-weight: bold;
+
+}
+
+#iconsInfos
+{
+	position: relative;
+	left: -20px;
+	width: 28%;
+	height: 30%;
+}
+
+#decoPresentation
+{
+	position: absolute;
+	width: 900px;
+	height: 100px;
+	top: 147px;
+	
+}
+
+
+/* COMPETENCES */
+
+#competences
+{
+	position: relative;
+	top: -638px;
+	padding: 0 20px;
+}
+
+#decoCompetences 
+{
+	position: relative;
+	height: 734px;
+	width:100px;
+	top: 17px;
+	bottom: 300px;
+	left: 300px;
+
+	/* float: left; */
+	/* top: -400px;
+	left: 200px; */
+	
+	/* left: 250px;
+	top: -490px; */
+}
+
+
+/* FORMATIONS */
+
+#formations
+{
+	position: relative;
+	top: -1200px;
+	left: 420px;
+}
+
+#formations b
+{
+	color: rgb(221, 221, 221);
+	text-shadow: rgb(37, 90, 50) 2px 2px 2px;
+}
+
+.nomFormation
+{
+	font-weight: bold;
+	text-shadow: rgb(112, 138, 118) 2px 2px 2px;
+}
+
+
+/* DIVERS */
+
+#divers
+{
+	position: relative;
+	left: 420px;
+	top: -1060px;
+}
+
+#decoDivers
+{
+	position: relative;
+	height: 100px;
+	width:520px;
+	left: 275px;
+	top: -180px;
+}
+
+
+
+
+
+
+
+#decoPresentation {
+	/* background-color: darkcyan;
+	width:1003px;
+	height:100px; */
+}
+
+#competences {
+	/* background-color: darkcyan;
+	width: 240px;
+	margin-top: -4px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	float: left;
+	height:938px ;
+	font-size: 1.2em; */
+}
+
+#decoCompetences 
+{
+	/* background-color: darkcyan;
+	width:100px;
+	height:952px;
+	margin-top: -18px; */
+}
+
+#formations {
+	/* background-color: darkcyan;
+	margin-left: 380px;
+	margin-top: -946px;
+	position: relative; 
+	padding-top: 0.5px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	font-size: 1.3em; */
+}
+
+#decoDivers {
+	/* background-color: darkcyan;
+	width:635px;
+	height:100px;
+	margin-left: 97px; */
+}
+
+#divers {
+	/* background-color: darkcyan;
+	margin-left: 380px;
+	margin-top: -20px;
+	padding-left: 15px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 1.3em; */
+}
+	
+							/* ------------------------------------------------------------------ */
+
+#nom {
+	/* position: relative;
+	float: right;
+ 	margin-top: 0.5%;
+	margin-right: 44%;
+	font-size: 40px; */
+}
+
+#etudiantDescription {
+	/* position: relative;
+	float: right;
+	margin-right: 32.7%;
+	margin-top: -13.5%; */
+	
+}
+
+#iconsInfos {
+	/* position: absolute;
+	display: inline-block;
+	 margin-left: 537px;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	font-size: 18px; */
+
+}
+
+
+.titreSection 
+{
+	/* border: 1px solid rgb(173,255,47,0.3); */
+}
